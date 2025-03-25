@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "237a02e9c1dff7ebf5cc775f65c44c5c8f00dab942575c7382d486dca88d9fa8"
+            "sha256": "a0652681c351b18b0352b5f1a50e7582b61d6452ce1a0391018f88fb3f47afbb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -280,6 +280,14 @@
             ],
             "markers": "python_version < '3.11'",
             "version": "==1.2.2"
+        },
+        "fastapi": {
+            "hashes": [
+                "sha256:1e2c2a2646905f9e83d32f04a3f86aff4a286669c6c950ca95b5fd68c2602681",
+                "sha256:e94613d6c05e27be7ffebdd6ea5f388112e5e430c8f7d6494a9d1d88d43e814d"
+            ],
+            "index": "pip_conf_index_global",
+            "version": "==0.115.12"
         },
         "frozenlist": {
             "hashes": [
@@ -670,11 +678,11 @@
         },
         "langgraph-prebuilt": {
             "hashes": [
-                "sha256:0b0da357d9905f28f6e5c89ab6b333815a35cc68f4322b037c21c8c50d0d1d2e",
-                "sha256:dc7376e695e1a52bd2280f8acd12953fb8707e88f0665e228e7e274b3c061196"
+                "sha256:07f69e088705cd4c9b81e9725b67c10060871b392e500961e605d4cc605a1e13",
+                "sha256:247c5819abf997b9070f5832d46a171c23d98684760652e3358403612ad91e03"
             ],
             "markers": "python_full_version >= '3.9.0' and python_full_version < '4.0.0'",
-            "version": "==0.1.5"
+            "version": "==0.1.6"
         },
         "langgraph-sdk": {
             "hashes": [
@@ -1098,7 +1106,7 @@
                 "sha256:427d664bf0b8a2b34ff5dd0f5a18df00591adcee7198fbd71981054cef37b584",
                 "sha256:ca5daa827cce33de7a42be142548b0096bf05a7e7b365aebfa5f8eeec7128236"
             ],
-            "markers": "python_version >= '3.8'",
+            "index": "pip_conf_index_global",
             "version": "==2.10.6"
         },
         "pydantic-core": {
@@ -1468,6 +1476,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.39"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:3c88d58ee4bd1bb807c0d1acb381838afc7752f9ddaec81bbe4383611d833230",
+                "sha256:77c74ed9d2720138b25875133f3a2dae6d854af2ec37dceb56aef370c1d8a227"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==0.46.1"
         },
         "tenacity": {
             "hashes": [
