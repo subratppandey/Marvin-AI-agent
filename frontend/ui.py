@@ -5,7 +5,7 @@ st.set_page_config(page_title="LangGrah Agent UI", layout="centered")
 st.title("Marvin AI")
 st.write("Create and interact with your smart friend Marvin")
 
-system_prompt = st.text_area("Choose your Prompt: ", height=70, placeholder="Type your prompt here...")
+system_prompt = st.text_area("Choose who you wanna be: ", height=70)
 
 MODEL_NAMES_GROQ = ["llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
 MODEL_NAMES_OPENAI = ["gpt-4o-mini"]
