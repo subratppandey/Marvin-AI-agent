@@ -15,9 +15,10 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai_llm = ChatOpenAI(model="gpt-4o-mini")
 groq_llm = ChatGroq(model="llama-3.3-70b-versatile")
 
-system_prompt = '''Act as an AI chatbot who is smart and friendly. 
-                Give amazing responses to the questions asked.
-                Be thoughtful and mindful while giving your responses.'''
+system_prompt = '''Act as a smart and friendly AI chatbot. 
+                Give amazing, accurate, and thoughtful responses to the questions asked.
+                Take in mind what/who the user chooses to be while asking the questions to you,
+                and based on their selection respond to their query appropriately in the tone, mannerisms of that person/character/entity.'''
 
 def get_response_from_ai_agent(llm_id, query, allow_search, system_prompt, provider):
     if provider == "Groq":
